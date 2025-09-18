@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Web Page</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>🎬 Interactive Web Page Demo</h1>
+  </header>
+
+  <!-- Part 1: CSS Transitions -->
+  <section class="buttons-section">
+    <h2>CSS Button Hover Effects</h2>
+    <button class="btn hover-btn">Hover Me</button>
+    <button class="btn scale-btn">Scale Me</button>
+  </section>
+
+  <!-- Part 2: JavaScript Functions -->
+  <section class="functions-section">
+    <h2>JavaScript Functions Demo</h2>
+    <input type="number" id="num1" placeholder="Enter first number">
+    <input type="number" id="num2" placeholder="Enter second number">
+    <button id="calculateBtn">Calculate Sum</button>
+    <p id="result"></p>
+  </section>
+
+  <!-- Part 3: CSS + JS Animation -->
+  <section class="animation-section">
+    <h2>Dynamic Box Animation</h2>
+    <button id="animateBtn">Animate Box</button>
+    <div class="box" id="box"></div>
+  </section>
+
+  <!-- Card Flip Example -->
+  <section class="card-section">
+    <h2>Card Flip Animation</h2>
+    <div class="card" id="card">
+      <div class="card-front">Front</div>
+      <div class="card-back">Back</div>
+    </div>
+  </section>
+
+  <!-- Modal Example -->
+  <section class="modal-section">
+    <h2>Popup Modal Example</h2>
+    <button id="openModalBtn">Open Modal</button>
+    <div class="modal" id="modal">
+      <div class="modal-content">
+        <span class="close-btn" id="closeModalBtn">&times;</span>
+        <h3>Modal Popup</h3>
+        <p>This modal slides in and fades out dynamically!</p>
+      </div>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
