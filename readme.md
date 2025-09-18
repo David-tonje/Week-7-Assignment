@@ -49,3 +49,24 @@ Users will see a dynamic, responsive webpage where elements **animate smoothly**
 ---
 
 ## Project Structure
+
+roject-folder/
+│
+- ├── index.html # HTML structure with sections, buttons, cards, and modals
+- ├── styles.css # All CSS transitions, keyframes, and animations
+- └── script.js # JavaScript functions, event listeners, and animation triggers
+
+  
+---
+
+## Getting Started
+
+### Prerequisites
+- Modern web browser (Chrome, Firefox, Edge, Safari)  
+- Text editor or IDE (VS Code, Sublime Text, Atom, etc.)
+
+### Steps
+1. Clone or download the project repository.  
+   ```bash
+   git clone <repository_url>
+
