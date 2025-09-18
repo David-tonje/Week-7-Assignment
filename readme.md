@@ -68,5 +68,5 @@ roject-folder/
 ### Steps
 1. Clone or download the project repository.  
    ```bash
-   git clone <repository_url>
+   https://github.com/David-tonje/Week-7-Assignment.git
 
